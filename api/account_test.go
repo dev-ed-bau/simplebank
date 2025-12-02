@@ -3,15 +3,12 @@ package api
 import (
 	"bytes"
 	"database/sql"
-	// "database/sql"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"testing"
-
-	// "time"
 
 	mockdb "github.com/dev-ed-bau/simplebank/db/mock"
 	db "github.com/dev-ed-bau/simplebank/db/sqlc"
