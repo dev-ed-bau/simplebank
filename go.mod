@@ -1,6 +1,6 @@
 module github.com/dev-ed-bau/simplebank
 
-go 1.25
+go 1.24
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
